@@ -1,0 +1,19 @@
+{
+  "name": "e-commers-affiliate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "autoprefixer": "^10.5.4",
+    "next": "^16.2.11",
+    "postcss": "^8.5.22",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwindcss": "^4.3.3"
+  }
+}
