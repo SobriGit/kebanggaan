@@ -1,9 +1,8 @@
-// components/Footer.jsx
 import React from 'react';
 
 export default function Footer({ setActiveCategory }) {
-  // Ganti nomor WA berikut dengan nomor WhatsApp kamu sendiri
-  const whatsappNumber = "6281234567890"; 
+  // 📱 ISI NOMOR WHATSAPP KAMU DI SINI (Ganti dengan nomor aktifmu, diawali 62)
+  const whatsappNumber = "6283837330214"; 
   const waMessage = encodeURIComponent("Halo Admin kebanggaanootd, saya ingin bertanya rekomendasi baju / bantuan ukuran produk.");
 
   return (
@@ -27,8 +26,9 @@ export default function Footer({ setActiveCategory }) {
                 Ikuti Kami:
               </span>
               <div className="flex flex-wrap items-center gap-1.5 md:gap-2">
+                {/* Instagram */}
                 <a
-                  href="https://instagram.com/kebanggaanootd"
+                  href="https://instagram.com/ootdkebanggaan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 text-white flex items-center justify-center shadow-sm hover:opacity-90 transition-opacity"
@@ -39,8 +39,9 @@ export default function Footer({ setActiveCategory }) {
                   </svg>
                 </a>
 
+                {/* TikTok */}
                 <a
-                  href="https://tiktok.com/@kebanggaanootd"
+                  href="https://www.tiktok.com/@oodtkebanggaan?is_from_webapp=1&sender_device=pc"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-black text-white flex items-center justify-center shadow-sm hover:bg-gray-800 transition-colors"
@@ -51,12 +52,13 @@ export default function Footer({ setActiveCategory }) {
                   </svg>
                 </a>
 
+                {/* Facebook */}
                 <a
-                  href="https://facebook.com/kebanggaanootd"
+                  href="https://www.facebook.com/profile.php?id=61563381364718"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-[#1877F2] text-white flex items-center justify-center shadow-sm hover:bg-blue-700 transition-colors"
-                  aria-label="Facebook kebanggaanootd"
+                  aria-label="Facebook OOTD Kebanggaan"
                 >
                   <svg className="w-3 h-3 md:w-4 md:h-4 fill-current" viewBox="0 0 24 24">
                     <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
@@ -98,7 +100,7 @@ export default function Footer({ setActiveCategory }) {
             </ul>
           </div>
 
-          {/* Col 3: Customer Info (Diperbarui dengan Link Interaktif) */}
+          {/* Col 3: Customer Info */}
           <div>
             <h4 className="font-bold text-gray-900 text-[10px] md:text-sm mb-2 leading-tight">Bantuan</h4>
             <ul className="space-y-1 md:space-y-2 text-[9px] md:text-xs text-gray-600">
@@ -139,7 +141,7 @@ export default function Footer({ setActiveCategory }) {
           <div>
             <h4 className="font-bold text-gray-900 text-[10px] md:text-sm mb-2 leading-tight">Keamanan</h4>
             <p className="text-gray-500 text-[8px] md:text-xs mb-2 leading-tight hidden sm:block">
-              Transaksi via **Shopee Indonesia** (COD, ShopeePay, Bank).
+              Transaksi via <strong>Shopee Indonesia</strong> (COD, ShopeePay, Bank).
             </p>
             <div className="flex flex-col md:flex-row flex-wrap gap-1 text-[8px] md:text-[10px] font-semibold text-gray-700">
               <span className="border border-gray-200 px-1.5 py-0.5 rounded bg-gray-50 text-[8px] md:text-[10px] text-center">🔒 Secure</span>

@@ -12,8 +12,8 @@ export default function MobileBottomNav({
 }) {
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
 
-  const whatsappNumber = "6281234567890"; 
-  const waMessage = encodeURIComponent("Halo Admin kebanggaanootd, saya ingin bertanya rekomendasi outfit / bantuan ukuran baju.");
+  const whatsappNumber = "6283837330214"; 
+  const waMessage = encodeURIComponent("Halo Admin ootdkebanggaan, saya ingin bertanya rekomendasi outfit / bantuan ukuran baju.");
 
   const handleSelectCategory = (catId) => {
     setActiveCategory(catId);
